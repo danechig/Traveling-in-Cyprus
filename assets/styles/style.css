@@ -224,3 +224,149 @@ body{
 
 
 
+.Enough{
+    background: url(../img/11.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 1110px;
+
+}
+.Enough .container{
+    padding-top: 400px;
+    display:flex ;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.Enough .container .En{
+    font-family: 'Mer';
+    font-size: 60px;
+    font-weight: 900;
+    color: #FFFFFF;
+    margin: 0;
+    margin-bottom: 10px;
+    spisok-align: center;
+}
+.Enough .container .most{
+    font-family: 'Lat';
+    font-weight: 700;
+    color: #FFFFFF;
+    font-size: 20px;
+    margin: 0;
+    letter-spacing: 5px;
+    margin-bottom: 120px;
+    spisok-align: center;
+
+}
+.Enough .container .play{
+    width: 100px;
+    height: 100px;
+    transform: rotate(45deg);
+    background-color: #F87932;
+    border:  1px solid #F87932;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20px;
+    padding-bottom: 5px;
+}
+
+.Enough .container .play svg{
+    transform: rotate(-45deg);
+    
+}
+.Enough .container .romb{
+    width: 220px;
+    height: 220px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    border: 5px solid #39BFA7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transform: rotate(45deg);
+    position: relative;
+}
+.Enough .container .romb .mini{
+    width: 75px;
+    height: 75px;
+    background-color: #39BFA7;
+    border: 3px solid #2A0606;
+    border-radius: 5px;
+
+}
+.Enough .container .romb .bigtxt{
+    transform: rotate(-45deg);
+    font-family: 'Lat';
+    font-weight: 700;
+    font-size: 36px;
+    color: #222222;
+    spisok-align: center;
+    margin: 0;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.Enough .container .romb .mini .txt{
+    transform: rotate(-45deg);
+    font-family: 'Lat';
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
+    spisok-align: center;
+    margin: 0;
+}
+.Enough .container .Happy{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    position: absolute;
+    margin-top: 1020px;
+}
+.Enough .container .Happy1{
+    display: flex;
+    
+}
+.Enough .container .Happy2{
+    display: flex;
+    
+}
+.Enough .container .romb1 .mini1{
+    transform: translate(-60px,-60px);
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.Enough .container .romb2{
+    margin-left: 105px;
+}
+.Enough .container .romb2 .mini2{
+    transform: translate(-60px,-60px);
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Enough .container .romb3{
+    margin-right: 105px;
+}
+.Enough .container .romb3 .mini3{
+    transform: translate(-60px,-60px);
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Enough .container .romb4 .mini4{
+    transform: translate(-60px,-60px);
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Enough{
+    margin-bottom: 200px;
+}

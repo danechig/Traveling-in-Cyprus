@@ -732,3 +732,98 @@ body{
     position: relative;
     left: 550px;
 }
+
+
+
+
+
+
+.conets{
+    background-color: #151C21;
+    padding-top: 50px;
+   padding-bottom: 50px;
+}
+
+.conets .container{
+    display: flex;
+    flex-direction: column;
+}
+.conets .container .Cyprus{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+    align-items: center;
+}
+.conets .container .Cyprus .rights{
+    width: 77px;
+    height: 142px;
+    background: url(../img/22.png) no-repeat;
+    background-size: cover;
+}
+.conets .container .Cyprus .centerber{
+    display: flex;
+    flex-direction: column;
+}
+.conets .container .Cyprus .email{
+    display: flex;
+    flex-direction: column;
+}
+.conets .container .Cyprus .office{
+    display: flex;
+    flex-direction: column;
+}
+.conets .container .Cyprus .center{
+    margin: 0;
+    margin-bottom: 5px;
+    font-family: 'Lat';
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+.conets .container .Cyprus .mobila{
+    margin: 0;
+    color: #FFFFFF;
+    font-family: 'Lat';
+    font-weight: 400;
+    font-size: 16px;
+}
+.conets .container .linia{
+    width: 100%;
+    height: 2px;
+    background-color: #666666;
+}
+.conets .container .info{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+.conets .container .reserved{
+    font-family: 'Lat';
+    font-weight: 400;
+    font-size: 16px;
+    color: #BBBBBB;
+    margin: 0;
+    margin-bottom: 5px;
+}
+.conets .container .pri{
+    font-family: 'Lat';
+    font-weight: 300;
+    font-size: 16px;
+    color: #BBBBBB;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+.conets .container .info .mel{
+    display: flex;
+    
+
+}
+.conets .container .info .mel a{
+    margin-right: 10px;
+}
+.conets .container .info .mel a{
+    margin-left: 10px;
+}
+

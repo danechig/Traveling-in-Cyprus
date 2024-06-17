@@ -410,7 +410,7 @@ body {
 .instaagram .container .pkohogp .ph .arrow a {
     color: #FFFFFF;
     font-size: 24px;
-    
+
     opacity: 0;
 
 }
@@ -639,6 +639,7 @@ body {
 
 .form {
     padding-top: 100px;
+    background-color: #1b242b;
 
 }
 
@@ -651,7 +652,7 @@ body {
     font-family: 'Merriweather';
     font-size: 60px;
     font-weight: 900;
-    color: #222222;
+    color: #ffffff;
     margin: 0;
     align-self: center;
     margin-bottom: 20px;
@@ -674,7 +675,7 @@ body {
     font-family: 'Lato';
     font-size: 20px;
     font-weight: 400;
-    color: #333333;
+    color: #ffffff;
     word-spacing: 10px;
     align-self: center;
     margin: 0;
@@ -683,7 +684,7 @@ body {
 .form .container label {
     font-family: 'Montserrat';
     font-weight: 700;
-    color: #222222;
+    color: #ffffff;
     position: relative;
     left: 400px;
 
@@ -730,13 +731,13 @@ body {
     font-family: 'Lat';
     font-size: 20px;
     font-weight: 700;
-    color: #ffffff;
+    color: #000000;
     word-spacing: 5px;
     padding-left: 10px;
     width: 180px;
     height: 52px;
     border: none;
-    background-color: #000000;
+    background-color: #ffffff;
     margin-bottom: 100px;
     position: relative;
     left: 550px;
@@ -841,3 +842,15 @@ body {
     margin-right: 10px;
     margin-left: 10px;
 }
+
+
+
+
+
+
+
+
+
+/*Адаптив*/
+
+

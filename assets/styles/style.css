@@ -177,7 +177,7 @@ body {
     font-family: 'Merriweather';
     font-weight: 900;
     font-size: 60px;
-    color: #222222;
+    color: #504f4f;
     margin: 0;
     margin-bottom: 30px;
 }
@@ -186,7 +186,7 @@ body {
     font-family: 'Lato';
     font-size: 20px;
     font-weight: 400;
-    color: #333333;
+    color: #a19f9f;
     letter-spacing: 5px;
     margin-bottom: 170px;
 }
@@ -512,7 +512,7 @@ body {
     height: 62px;
     font-family: 'Lato';
     font-weight: 700;
-    font-size: 20px;
+    font-size: 35px;
     color: #222222;
     border: 1px solid #222222;
     letter-spacing: 5px;
@@ -569,7 +569,7 @@ body {
 
 .Whemostr .container .wel {
     font-family: 'Lato';
-    font-size: 16px;
+    font-size: 12px;
     font-weight: 400;
     color: #EEEEEE;
     align-self: center;
@@ -592,12 +592,12 @@ body {
 .Whemostr .container .points .Historical {
     display: flex;
     align-items: center;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 .Whemostr .container .points .Historical .nmb {
     font-family: "SedgwickAve";
-    font-size: 70px;
+    font-size: 50px;
     font-weight: 400;
     color: #FFFFFF;
     margin: 0;
@@ -607,7 +607,7 @@ body {
 .Whemostr .container .points .Historical .data .mounth {
     font-family: 'SedgwickAve';
     font-weight: 400;
-    font-size: 18px;
+    font-size: 14px;
     color: #969696;
     margin: 0;
 }
@@ -799,7 +799,7 @@ body {
     color: #FFFFFF;
     font-family: 'Lato';
     font-weight: 400;
-    font-size: 16px;
+    font-size: 25px;
 }
 
 .conets .container .linia {
@@ -873,3 +873,8 @@ body {
 
     }
 
+    .Shkyaps .container .Traveling .Cyprus2 .img1 {
+        width: 264px;
+        height: -171px;
+        transform: translate(144px, -424px);
+    }

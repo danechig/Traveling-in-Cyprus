@@ -137,3 +137,84 @@ body{
     transform: translate(100px,-100px);
     
 }
+
+
+
+
+
+.people{
+    margin-bottom: 50px;
+}
+.people .container{
+    display: flex;
+    position: relative;
+}
+.people .container .Cyprus .putishestvie{
+    width: 770px;
+    height: 638px;
+    background: url(../img/путь.png) no-repeat;
+    padding-top: 170px;
+    position: absolute;
+    transform: translate(-170px,-110px);
+    z-index: -1;
+    
+}
+.people .container .Cyprus  .enjoy{
+    font-size: 'Lat';
+    font-weight: 500;
+    font-size: 24px;
+    color: #666666;
+    letter-spacing: 5px;
+    margin: 0;
+    margin-top: 50px;
+    
+}
+.people .container .Cyprus  .Unforgettable{
+    font-family: 'Mer';
+    font-weight: 900;
+    font-size: 60px;
+    color: #222222;
+    margin: 0;
+    margin-bottom: 30px;
+}
+.people .container .Cyprus  .dedicated{
+    font-family: 'Lat';
+    font-size: 20px;
+    font-weight: 400;
+    color: #333333;
+    letter-spacing: 5px;
+    margin-bottom: 170px;
+}
+.people .container .Cyprus .TRIP{
+    width: 213px;
+    height: 62px;
+    border: 1px solid #222222;
+    background-color: white;
+    font-family: 'Lat';
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 5px;
+    padding-left: 10px;
+}
+
+.people .container .Cyprus2 .img2{
+    width: 331px;
+    height: 332px;
+    background-size: contain;
+    margin-top: 130px;
+   
+
+    
+}
+.people .container .Cyprus2{
+    display: flex;
+    position: relative;
+}
+.people .container .Cyprus2 .img3{
+   
+    width: 365px;
+    height: 456px;
+    background-size: contain;
+    position: absolute;
+    transform: translate(230px,25px);
+}

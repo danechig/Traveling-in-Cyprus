@@ -376,3 +376,159 @@ body{
 
 
 
+
+.instaagram .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.instaagram .container .instaagram{
+    font-family: 'Mon';
+    font-weight: 700;
+    font-size: 48px;
+    color: #222222;
+    spisok-align: center;
+    margin: 0;
+    margin-bottom: 20px;
+}
+.instaagram .container .most{
+    font-family: 'Mon';
+    font-weight: 600;
+    font-size: 32px;
+    color: #444444;
+    spisok-align: center;
+    margin-bottom: 20px;
+}
+.instaagram .container .articles{
+    font-family: 'Lat';
+    font-weight: 400;
+    font-size: 16px;
+    color: #666666;
+    spisok-align: center;
+    letter-spacing: 5px;
+    margin-bottom: 30px;
+}
+.instaagram .container .pkohogp .ph{
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    padding: 10px;
+}
+.instaagram .container .pkohogp .ph .spisok{
+    font-family: 'Mer';
+    font-size: 24px;
+    font-weight: 900;
+    color: #FFFFFF;
+    margin: 0;
+    opacity: 0;
+}
+
+.instaagram .container .pkohogp .ph .arrow a{
+    color: #FFFFFF;
+    font-size: 24px;
+    spisok-decoration: none;
+    opacity: 0;
+
+}
+
+.instaagram .container .pkohogp .Cyprus .ph1{
+   width: 282px;
+   height: 584px;
+   background: url(../img/13.png);
+   background-position: center;
+}
+.instaagram .container .pkohogp .Cyprus .ph2{
+    width: 282px;
+    height: 282px;
+    background: url(../img/14.png);
+    background-position: center;
+    
+}
+.instaagram .container .pkohogp .Cyprus .ph3{
+    width: 282px;
+    height: 282px;
+    background: url(../img/15.png);
+    background-position: center;
+    
+}
+.instaagram .container .pkohogp .Cyprus{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 282px 282px;
+    grid-template-rows: 282px 282px;
+    
+}
+.instaagram .container .pkohogp .Cyprus .ph1{
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.instaagram .container .pkohogp .Cyprus .ph2{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.instaagram .container .pkohogp .Cyprus .ph3{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.instaagram .container .pkohogp{
+    display: flex;
+
+}
+.instaagram .container .pkohogp .Cyprus{
+    margin-right: 10px;
+}
+.instaagram .container .pkohogp .Cyprus2{
+    margin-left: 10px;
+}
+.instaagram .container .pkohogp .Cyprus2{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 282px 282px;
+    grid-template-rows: 282px 282px;
+}
+.instaagram .container .pkohogp .Cyprus2 .ph4{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    
+}
+.instaagram .container .pkohogp .Cyprus2 .ph4{
+    width: 584px;
+    height: 282px;
+    background: url(../img/16.png);
+    background-position: center;
+}
+.instaagram .container .pkohogp .Cyprus2 .ph5{
+    width: 282px;
+    height: 282px;
+    background: url(../img/17.png);
+    background-position: center;
+}
+.instaagram .container .pkohogp .Cyprus2 .ph6{
+    width: 282px;
+    height: 282px;
+    background: url(../img/18.png);
+    background-position: center;
+    
+}
+.instaagram .container .GO{
+    width: 206px;
+    height: 62px;
+    font-family: 'Lat';
+    font-weight: 700;
+    font-size: 20px;
+    color: #222222;
+    border: 1px solid #222222;
+    letter-spacing: 5px;
+    padding-left: 10px;
+    background: white;
+    margin-top: 50px;
+    transition: .5s;
+}
+
+.instaagram{
+    margin-bottom: 70px;
+}

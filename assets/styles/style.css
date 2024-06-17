@@ -1,102 +1,111 @@
-*{
+* {
     box-sizing: border-box;
 }
-body{
+
+body {
     margin: 0 auto;
     padding: 0;
 }
 
 
-.container{
+.container {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
     padding: 0;
 }
 
-.Shkyaps{
+.Shkyaps {
     background: url(../img/BG.png) no-repeat;
     background-size: cover;
     background-position: center;
     height: 1107px;
     position: relative;
 }
-.Shkyaps .rombiki img{
+
+.Shkyaps .rombiki img {
     position: absolute;
     width: 400px;
-    
+
 }
 
-.Shkyaps .container .mobila{
+.Shkyaps .container .mobila {
     display: none;
 }
-.Shkyaps .container .doroga{
+
+.Shkyaps .container .doroga {
     display: flex;
     justify-content: center;
-    
-    
+
+
 }
 
-.Shkyaps .container .doroga a{
+.Shkyaps .container .doroga a {
     font-family: 'Lat';
     font-weight: 700;
     font-size: 20px;
     color: #F87932;
-    spisok-decoration: none;
     margin-left: 30px;
     margin-right: 30px;
     letter-spacing: 5px;
     background-color: #FFFFFF;
-    
+
 }
 
-.Shkyaps .container .doroga a:nth-child(1){
-    border-radius: 0 0 15px 15px;
-    padding-top: 20px;
-    padding-left: 10px;
-    padding-right: 5px;
-    height: 60px;   
-}
-.Shkyaps .container .doroga a:nth-child(2){
-    
+.Shkyaps .container .doroga a:nth-child(1) {
     border-radius: 0 0 15px 15px;
     padding-top: 20px;
     padding-left: 10px;
     padding-right: 5px;
     height: 60px;
 }
-.Shkyaps .container .doroga a:nth-child(3){
-    
+
+.Shkyaps .container .doroga a:nth-child(2) {
+
+    border-radius: 0 0 15px 15px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 5px;
+    height: 60px;
+}
+
+.Shkyaps .container .doroga a:nth-child(3) {
+
     border-radius: 0 0 15px 15px;
     padding-top: 20px;
     padding-left: 40px;
-    padding-right:  40px;
+    padding-right: 40px;
     height: 110px;
 }
-.Shkyaps .container .doroga a:nth-child(3):hover{
+
+.Shkyaps .container .doroga a:nth-child(3):hover {
     background-color: #FFFFFF;
 }
-.Shkyaps .container .doroga a:nth-child(4){
-    
+
+.Shkyaps .container .doroga a:nth-child(4) {
+
     border-radius: 0 0 15px 15px;
     padding-top: 20px;
     padding-left: 10px;
     padding-right: 5px;
     height: 60px;
 }
-.Shkyaps .container .doroga a:nth-child(5){
-    
+
+.Shkyaps .container .doroga a:nth-child(5) {
+
     border-radius: 0 0 15px 15px;
     padding-top: 20px;
     padding-left: 10px;
     padding-right: 5px;
     height: 60px;
 }
-.Shkyaps .container .Traveling{
+
+.Shkyaps .container .Traveling {
     display: flex;
     margin-top: 170px;
 }
-.Shkyaps .container .Traveling .trav{
+
+.Shkyaps .container .Traveling .trav {
     font-family: 'Mer';
     font-size: 80px;
     font-weight: 700;
@@ -104,10 +113,12 @@ body{
     color: #F87932;
     margin-bottom: 70px;
 }
-.Shkyaps .container .Traveling .trav .green{
+
+.Shkyaps .container .Traveling .trav .green {
     color: #39BFA7;
 }
-.Shkyaps .container .Traveling .Cyprus .TRIP{
+
+.Shkyaps .container .Traveling .Cyprus .TRIP {
     font-family: 'Lat';
     font-weight: 700;
     font-size: 20px;
@@ -115,38 +126,40 @@ body{
     width: 213px;
     height: 62px;
     background-color: #F87932;
-    transition: .5s;
-    border: none;
     padding-left: 10px;
     letter-spacing: 5px;
 }
-.Shkyaps .container .Traveling .Cyprus2 .img1{
+
+.Shkyaps .container .Traveling .Cyprus2 .img1 {
     position: absolute;
     width: 520px;
     height: 520px;
-    transform: translate(100px,-100px);
-    
+    transform: translate(100px, -100px);
+
 }
 
 
-.people{
+.people {
     margin-bottom: 50px;
 }
-.people .container{
+
+.people .container {
     display: flex;
     position: relative;
 }
-.people .container .Cyprus .putishestvie{
+
+.people .container .Cyprus .putishestvie {
     width: 770px;
     height: 638px;
     background: url(../img/путь.png) no-repeat;
     padding-top: 170px;
     position: absolute;
-    transform: translate(-170px,-110px);
+    transform: translate(-170px, -110px);
     z-index: -1;
-    
+
 }
-.people .container .Cyprus  .enjoy{
+
+.people .container .Cyprus .enjoy {
     font-size: 'Lat';
     font-weight: 500;
     font-size: 24px;
@@ -154,9 +167,10 @@ body{
     letter-spacing: 5px;
     margin: 0;
     margin-top: 50px;
-    
+
 }
-.people .container .Cyprus  .Unforgettable{
+
+.people .container .Cyprus .Unforgettable {
     font-family: 'Mer';
     font-weight: 900;
     font-size: 60px;
@@ -164,7 +178,8 @@ body{
     margin: 0;
     margin-bottom: 30px;
 }
-.people .container .Cyprus  .dedicated{
+
+.people .container .Cyprus .dedicated {
     font-family: 'Lat';
     font-size: 20px;
     font-weight: 400;
@@ -172,7 +187,8 @@ body{
     letter-spacing: 5px;
     margin-bottom: 170px;
 }
-.people .container .Cyprus .TRIP{
+
+.people .container .Cyprus .TRIP {
     width: 213px;
     height: 62px;
     border: 1px solid #222222;
@@ -184,26 +200,28 @@ body{
     padding-left: 10px;
 }
 
-.people .container .Cyprus2 .img2{
+.people .container .Cyprus2 .img2 {
     width: 331px;
     height: 332px;
     background-size: contain;
     margin-top: 130px;
-   
 
-    
+
+
 }
-.people .container .Cyprus2{
+
+.people .container .Cyprus2 {
     display: flex;
     position: relative;
 }
-.people .container .Cyprus2 .img3{
-   
+
+.people .container .Cyprus2 .img3 {
+
     width: 365px;
     height: 456px;
     background-size: contain;
     position: absolute;
-    transform: translate(230px,25px);
+    transform: translate(230px, 25px);
 }
 
 
@@ -211,22 +229,24 @@ body{
 
 
 
-.Enough{
+.Enough {
     background: url(../img/11.png) no-repeat;
     background-size: cover;
     background-position: center;
     height: 1110px;
 
 }
-.Enough .container{
+
+.Enough .container {
     padding-top: 400px;
-    display:flex ;
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     position: relative;
 }
-.Enough .container .En{
+
+.Enough .container .En {
     font-family: 'Mer';
     font-size: 60px;
     font-weight: 900;
@@ -235,7 +255,8 @@ body{
     margin-bottom: 10px;
     spisok-align: center;
 }
-.Enough .container .most{
+
+.Enough .container .most {
     font-family: 'Lat';
     font-weight: 700;
     color: #FFFFFF;
@@ -246,12 +267,13 @@ body{
     spisok-align: center;
 
 }
-.Enough .container .play{
+
+.Enough .container .play {
     width: 100px;
     height: 100px;
     transform: rotate(45deg);
     background-color: #F87932;
-    border:  1px solid #F87932;
+    border: 1px solid #F87932;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -259,102 +281,71 @@ body{
     padding-bottom: 5px;
 }
 
-.Enough .container .play svg{
+.Enough .container .play svg {
     transform: rotate(-45deg);
-    
-}
-.Enough .container .romb{
-    width: 220px;
-    height: 220px;
-    background-color: #FFFFFF;
-    border-radius: 8px;
-    border: 5px solid #39BFA7;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    transform: rotate(45deg);
-    position: relative;
-}
-.Enough .container .romb .mini{
-    width: 75px;
-    height: 75px;
-    background-color: #39BFA7;
-    border: 3px solid #2A0606;
-    border-radius: 5px;
 
 }
-.Enough .container .romb .bigtxt{
-    transform: rotate(-45deg);
-    font-family: 'Lat';
-    font-weight: 700;
-    font-size: 36px;
-    color: #222222;
-    spisok-align: center;
-    margin: 0;
-    margin-left: 30px;
-    margin-top: 30px;
-}
-.Enough .container .romb .mini .txt{
-    transform: rotate(-45deg);
-    font-family: 'Lat';
-    font-weight: 700;
-    font-size: 20px;
-    color: #FFFFFF;
-    spisok-align: center;
-    margin: 0;
-}
-.Enough .container .Happy{
+
+.Enough .container .Happy {
     display: flex;
     width: 100%;
     justify-content: space-between;
     position: absolute;
     margin-top: 1020px;
 }
-.Enough .container .Happy1{
+
+.Enough .container .Happy1 {
     display: flex;
-    
+
 }
-.Enough .container .Happy2{
+
+.Enough .container .Happy2 {
     display: flex;
-    
+
 }
-.Enough .container .romb1 .mini1{
-    transform: translate(-60px,-60px);
+
+.Enough .container .romb1 .mini1 {
+    transform: translate(40px, -165px);
     position: absolute;
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
 }
-.Enough .container .romb2{
+
+.Enough .container .romb2 {
     margin-left: 105px;
 }
-.Enough .container .romb2 .mini2{
-    transform: translate(-60px,-60px);
+
+.Enough .container .romb2 .mini2 {
+    transform: translate(-60px, -60px);
     position: absolute;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.Enough .container .romb3{
+
+.Enough .container .romb3 {
     margin-right: 105px;
 }
-.Enough .container .romb3 .mini3{
-    transform: translate(-60px,-60px);
+
+.Enough .container .romb3 .mini3 {
+    transform: translate(-60px, -60px);
     position: absolute;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.Enough .container .romb4 .mini4{
-    transform: translate(-60px,-60px);
+
+.Enough .container .romb4 .mini4 {
+    transform: translate(-60px, -60px);
     position: absolute;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.Enough{
+
+.Enough {
     margin-bottom: 200px;
 }
 
@@ -362,12 +353,13 @@ body{
 
 
 
-.instaagram .container{
+.instaagram .container {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.instaagram .container .instaagram{
+
+.instaagram .container .instaagram {
     font-family: 'Mon';
     font-weight: 700;
     font-size: 48px;
@@ -376,7 +368,8 @@ body{
     margin: 0;
     margin-bottom: 20px;
 }
-.instaagram .container .most{
+
+.instaagram .container .most {
     font-family: 'Mon';
     font-weight: 600;
     font-size: 32px;
@@ -384,7 +377,8 @@ body{
     spisok-align: center;
     margin-bottom: 20px;
 }
-.instaagram .container .articles{
+
+.instaagram .container .articles {
     font-family: 'Lat';
     font-weight: 400;
     font-size: 16px;
@@ -393,13 +387,15 @@ body{
     letter-spacing: 5px;
     margin-bottom: 30px;
 }
-.instaagram .container .pkohogp .ph{
+
+.instaagram .container .pkohogp .ph {
     display: flex;
     align-items: end;
     justify-content: space-between;
     padding: 10px;
 }
-.instaagram .container .pkohogp .ph .spisok{
+
+.instaagram .container .pkohogp .ph .spisok {
     font-family: 'Mer';
     font-size: 24px;
     font-weight: 900;
@@ -408,7 +404,7 @@ body{
     opacity: 0;
 }
 
-.instaagram .container .pkohogp .ph .arrow a{
+.instaagram .container .pkohogp .ph .arrow a {
     color: #FFFFFF;
     font-size: 24px;
     spisok-decoration: none;
@@ -416,90 +412,99 @@ body{
 
 }
 
-.instaagram .container .pkohogp .Cyprus .ph1{
-   width: 282px;
-   height: 584px;
-   background: url(../img/13.png);
-   background-position: center;
+.instaagram .container .pkohogp .Cyprus .ph1 {
+    width: 282px;
+    height: 584px;
+    background-position: center;
 }
-.instaagram .container .pkohogp .Cyprus .ph2{
+
+.instaagram .container .pkohogp .Cyprus .ph2 {
     width: 282px;
     height: 282px;
-    background: url(../img/14.png);
     background-position: center;
-    
+
 }
-.instaagram .container .pkohogp .Cyprus .ph3{
+
+.instaagram .container .pkohogp .Cyprus .ph3 {
     width: 282px;
     height: 282px;
-    background: url(../img/15.png);
     background-position: center;
-    
+
 }
-.instaagram .container .pkohogp .Cyprus{
+
+.instaagram .container .pkohogp .Cyprus {
     display: grid;
     grid-gap: 20px;
     grid-template-columns: 282px 282px;
     grid-template-rows: 282px 282px;
-    
+
 }
-.instaagram .container .pkohogp .Cyprus .ph1{
+
+.instaagram .container .pkohogp .Cyprus .ph1 {
     grid-row-start: 1;
     grid-row-end: 3;
 }
-.instaagram .container .pkohogp .Cyprus .ph2{
+
+.instaagram .container .pkohogp .Cyprus .ph2 {
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 2;
 }
-.instaagram .container .pkohogp .Cyprus .ph3{
+
+.instaagram .container .pkohogp .Cyprus .ph3 {
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 2;
     grid-row-end: 3;
 }
-.instaagram .container .pkohogp{
+
+.instaagram .container .pkohogp {
     display: flex;
 
 }
-.instaagram .container .pkohogp .Cyprus{
+
+.instaagram .container .pkohogp .Cyprus {
     margin-right: 10px;
 }
-.instaagram .container .pkohogp .Cyprus2{
+
+.instaagram .container .pkohogp .Cyprus2 {
     margin-left: 10px;
 }
-.instaagram .container .pkohogp .Cyprus2{
+
+.instaagram .container .pkohogp .Cyprus2 {
     display: grid;
     grid-gap: 20px;
     grid-template-columns: 282px 282px;
     grid-template-rows: 282px 282px;
 }
-.instaagram .container .pkohogp .Cyprus2 .ph4{
+
+.instaagram .container .pkohogp .Cyprus2 .ph4 {
     grid-column-start: 1;
     grid-column-end: 3;
-    
+
 }
-.instaagram .container .pkohogp .Cyprus2 .ph4{
+
+.instaagram .container .pkohogp .Cyprus2 .ph4 {
     width: 584px;
     height: 282px;
-    background: url(../img/16.png);
     background-position: center;
 }
-.instaagram .container .pkohogp .Cyprus2 .ph5{
+
+.instaagram .container .pkohogp .Cyprus2 .ph5 {
     width: 282px;
     height: 282px;
-    background: url(../img/17.png);
     background-position: center;
 }
-.instaagram .container .pkohogp .Cyprus2 .ph6{
+
+.instaagram .container .pkohogp .Cyprus2 .ph6 {
     width: 282px;
     height: 282px;
-    background: url(../img/18.png);
     background-position: center;
-    
+
 }
-.instaagram .container .GO{
+
+.instaagram .container .GO {
     width: 206px;
     height: 62px;
     font-family: 'Lat';
@@ -511,10 +516,9 @@ body{
     padding-left: 10px;
     background: white;
     margin-top: 50px;
-    transition: .5s;
 }
 
-.instaagram{
+.instaagram {
     margin-bottom: 70px;
 }
 
@@ -524,17 +528,17 @@ body{
 
 
 
-.Whemostr{
-    background: url(../img/19.jpg) no-repeat;
+.Whemostr {
+    background: url(../img/дорога\ дальняя\ .jpg) no-repeat;
     background-size: cover;
     background-position: center;
     padding-top: 50px;
     padding-bottom: 50px;
-   
+
 
 }
 
-.Whemostr .container{
+.Whemostr .container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -542,7 +546,7 @@ body{
     border: 3px solid #FFFFFF;
 }
 
-.Whemostr .container .dedicated{
+.Whemostr .container .dedicated {
     font-family: 'Mer';
     font-size: 60px;
     font-weight: 900;
@@ -551,7 +555,7 @@ body{
     margin-bottom: 20px;
 }
 
-.Whemostr .container .UK{
+.Whemostr .container .UK {
     width: 157px;
     height: 23px;
     background: url(../img/20.png) no-repeat;
@@ -559,7 +563,8 @@ body{
     background-position: center;
     margin-bottom: 20px;
 }
-.Whemostr .container .wel{
+
+.Whemostr .container .wel {
     font-family: 'Lat';
     font-size: 16px;
     font-weight: 400;
@@ -567,23 +572,27 @@ body{
     spisok-align: center;
     margin-bottom: 40px;
 }
-.Whemostr .container .points{
+
+.Whemostr .container .points {
     display: flex;
     justify-content: space-evenly;
     width: 100%;
 }
-.Whemostr .container .points .up{
+
+.Whemostr .container .points .up {
     font-family: 'Sed';
     font-size: 60px;
     font-weight: 400;
     color: #39BFA7;
 }
-.Whemostr .container .points .Historical{
+
+.Whemostr .container .points .Historical {
     display: flex;
     align-items: center;
     margin-bottom: 30px;
 }
-.Whemostr .container .points .Historical .nmb{
+
+.Whemostr .container .points .Historical .nmb {
     font-family: 'Sed';
     font-size: 70px;
     font-weight: 400;
@@ -591,27 +600,29 @@ body{
     margin: 0;
     margin-right: 10px;
 }
-.Whemostr .container .points .Historical .data .mounth{
+
+.Whemostr .container .points .Historical .data .mounth {
     font-family: 'Sed';
     font-weight: 400;
     font-size: 18px;
     color: #969696;
     margin: 0;
 }
-.Whemostr .container .points .Historical .data .name{
+
+.Whemostr .container .points .Historical .data .name {
     font-family: 'Mer';
     font-weight: 900;
     font-size: 30px;
     color: #DDDDDD;
     margin: 0;
-    
+
 }
-.Whemostr .container .TRIP{
+
+.Whemostr .container .TRIP {
     font-family: 'Lat';
     font-size: 20px;
     font-weight: 700;
     color: #FFFFFF;
-    word-spacing: 5px;
     padding-left: 10px;
     width: 213px;
     height: 62px;
@@ -623,84 +634,95 @@ body{
 
 
 
-
-
-.form{
+.form {
     padding-top: 100px;
-    
+
 }
-.form .container{
+
+.form .container {
     display: flex;
     flex-direction: column;
 }
-.form .container .join{
+
+.form .container .join {
     font-family: 'Mer';
     font-size: 60px;
     font-weight: 900;
     color: #222222;
     margin: 0;
+    align-self: center;
     margin-bottom: 20px;
-    spisok-align: center;
 }
-.form .container .w100{
+
+.form .container .w100 {
     width: 100%;
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
 }
-.form .container .UK{
+
+.form .container .UK {
     width: 157px;
     height: 19px;
     background: url(../img/21.png);
 }
-.form .container .call{
+
+.form .container .call {
     font-family: 'Lat';
     font-size: 20px;
     font-weight: 400;
     color: #333333;
     word-spacing: 10px;
-    spisok-align: center;
+    align-self: center;
     margin: 0;
 }
-.form .container label{
+
+.form .container label {
     font-family: 'Mon';
     font-weight: 700;
     color: #222222;
     position: relative;
     left: 400px;
-    
-    
+
+
 }
-.form .container input{
+
+.form .container input {
     border: 1px solid #000000;
     width: 500px;
     position: relative;
     position: relative;
     left: 400px;
-    
+
 }
-.form .container .dropdown{
+
+.form .container .dropdown {
     margin-bottom: 20px;
     margin-top: 10px;
-    
+
 }
-.form .container .dropdown button{
+
+.form .container .dropdown button {
     background-color: #F87932;
     border: none;
 }
-.form .container .marg{
+
+.form .container .marg {
     margin-top: 20px;
 }
-.form .container .rad{
+
+.form .container .rad {
     border-radius: 8px;
     height: 35px;
 }
-.form .container .cen{
+
+.form .container .cen {
     width: 100%;
     display: flex;
     justify-content: center;
 }
-.form .container .Get{
+
+.form .container .Get {
     margin-top: 30px;
     font-family: 'Lat';
     font-size: 20px;
@@ -720,41 +742,46 @@ body{
 
 
 
-.conets{
+.conets {
     background-color: #151C21;
     padding-top: 50px;
-   padding-bottom: 50px;
+    padding-bottom: 50px;
 }
 
-.conets .container{
+.conets .container {
     display: flex;
     flex-direction: column;
 }
-.conets .container .Cyprus{
+
+.conets .container .Cyprus {
     display: flex;
     justify-content: space-evenly;
     margin-bottom: 50px;
     align-items: center;
 }
-.conets .container .Cyprus .rights{
+
+.conets .container .Cyprus .rights {
     width: 77px;
     height: 142px;
-    background: url(../img/22.png) no-repeat;
     background-size: cover;
 }
-.conets .container .Cyprus .centerber{
+
+.conets .container .Cyprus .centerber {
     display: flex;
     flex-direction: column;
 }
-.conets .container .Cyprus .email{
+
+.conets .container .Cyprus .email {
     display: flex;
     flex-direction: column;
 }
-.conets .container .Cyprus .office{
+
+.conets .container .Cyprus .office {
     display: flex;
     flex-direction: column;
 }
-.conets .container .Cyprus .center{
+
+.conets .container .Cyprus .center {
     margin: 0;
     margin-bottom: 5px;
     font-family: 'Lat';
@@ -762,26 +789,30 @@ body{
     font-size: 20px;
     color: #FFFFFF;
 }
-.conets .container .Cyprus .mobila{
+
+.conets .container .Cyprus .mobila {
     margin: 0;
     color: #FFFFFF;
     font-family: 'Lat';
     font-weight: 400;
     font-size: 16px;
 }
-.conets .container .linia{
+
+.conets .container .linia {
     width: 100%;
     height: 2px;
     background-color: #666666;
 }
-.conets .container .info{
+
+.conets .container .info {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 50px;
 }
-.conets .container .reserved{
+
+.conets .container .reserved {
     font-family: 'Lat';
     font-weight: 400;
     font-size: 16px;
@@ -789,7 +820,8 @@ body{
     margin: 0;
     margin-bottom: 5px;
 }
-.conets .container .pri{
+
+.conets .container .pri {
     font-family: 'Lat';
     font-weight: 300;
     font-size: 16px;
@@ -797,15 +829,12 @@ body{
     margin-bottom: 20px;
     margin-top: 0;
 }
-.conets .container .info .mel{
-    display: flex;
-    
 
+.conets .container .info .mel {
+    display: flex;
 }
-.conets .container .info .mel a{
+
+.conets .container .info .mel img {
     margin-right: 10px;
-}
-.conets .container .info .mel a{
     margin-left: 10px;
 }
-

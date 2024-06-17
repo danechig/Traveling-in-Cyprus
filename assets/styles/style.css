@@ -1,3 +1,6 @@
+@import url(./fonts.css);
+
+
 * {
     box-sizing: border-box;
 }
@@ -593,7 +596,7 @@ body {
 }
 
 .Whemostr .container .points .Historical .nmb {
-    font-family: 'SedgwickAve';
+    font-family: "SedgwickAve";
     font-size: 70px;
     font-weight: 400;
     color: #FFFFFF;

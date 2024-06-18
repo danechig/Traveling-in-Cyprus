@@ -19,7 +19,7 @@ body {
 }
 
 .Shkyaps {
-    background: url(../img/BG.png) no-repeat;
+    background: url(../img/BG.png), no-repeat;
     background-size: cover;
     background-position: center;
     height: 1107px;
@@ -29,7 +29,6 @@ body {
 .Shkyaps .rombiki img {
     position: absolute;
     width: 400px;
-
 }
 
 .Shkyaps .container .mobila {
@@ -39,8 +38,6 @@ body {
 .Shkyaps .container .doroga {
     display: flex;
     justify-content: center;
-
-
 }
 
 .Shkyaps .container .doroga a {
@@ -322,6 +319,7 @@ body {
 .Enough .container .romb2 {
     margin-left: 105px;
 }
+
 .Enough {
     margin-bottom: 200px;
 }
@@ -776,8 +774,9 @@ body {
     color: #FFFFFF;
     font-family: 'Lato';
     font-weight: 400;
-    font-size:16px;
+    font-size: 16px;
 }
+
 .conets .container .linia {
     width: 100%;
     height: 2px;
@@ -823,34 +822,137 @@ body {
 
 
 
-
-
-
-
 /*Адаптив*/
 
-
-@media(max-width:480px) {
+@media screen and (max-width: 480px) {
     .container {
-        width: 320px !important;
-        padding-left: 5px !important;
-        padding-right: 5px !important;
+        width: 320px;
+        padding-left: 5px;
+        padding-right: 5px;
     }
 
     .Shkyaps {
-        height: 690px !important;
+        height: 690px;
     }
 
     .Shkyaps .container .doroga a {
-        font-size: 12px !important;
-        width: 140px !important;
-        height: 30px !important;
-        padding-top: 7px !important;
+        font-size: 12px;
+        width: 140px;
+        height: 30px;
+        padding-top: 7px;
 
     }
 
+    .Shkyaps .container .doroga {
+        display:none
+    }
+
+    img, svg {
+        vertical-align: middle;
+        width: 185px;
+        margin-left: -234px;
+        margin-top: 526px;
+    }
+    .Shkyaps {
+        height: 648px;
+        margin-top: -169px;
+    }
+
+    .Shkyaps .container .Traveling .trav {
+        font-size: 36px;
+        font-weight: 700;
+        margin-bottom: 93px;
+        margin-top: 126px;
+    }
+
+    .Shkyaps .container .Traveling .Cyprus .TRIP {
+        font-weight: 700;
+        font-size: 11px;
+        width: 119px;
+        height: 38px;
+        letter-spacing: 2px;
+        margin-top: -26px;
+    }
     .Shkyaps .container .Traveling .Cyprus2 .img1 {
-        width: 264px;
-        height: -171px;
-        transform: translate(144px, -424px);
+        position: absolute;
+        width: 400px;
+        height: 400px;
+        transform: translate(80px, -160px);
     }
+    .Shkyaps .rombiki img {
+        display: none;
+    }
+    .people .container .Cyprus .Unforgettable {
+        font-family: 'Merriweather';
+        font-weight: 900;
+        font-size: 32px;
+        color: #504f4f;
+        margin: 0;
+        margin-bottom: 30px;
+        align-content: center;
+        margin-left: 46px;
+        text-align: center;0
+    }
+    .people .container .Cyprus .enjoy {
+        font-size: 'Lato';
+        font-weight: 500;
+        font-size: 11px;
+        color: #666666;
+        letter-spacing: 5px;
+        margin: 0;
+        margin-top: 50px;
+        margin-left: 68px;
+    }
+    .people .container .Cyprus .dedicated {
+        font-family: 'Lato';
+        font-size: 14px;
+        font-weight: 400;
+        color: #333333;
+        letter-spacing: 5px;
+        margin-bottom: 170px;
+        margin-left: 40px;
+        text-align: center;
+    }
+    .people .container .Cyprus2 .img2 {
+        width: 331px;
+        height: 332px;
+        background-size: contain;
+        margin-top: -300px;
+        margin-left: 55px;
+    
+    
+    
+    }
+    
+    
+    .people .container .Cyprus2 .img3 {
+    
+        width: 365px;
+        height: 456px;
+        background-size: contain;
+        position: absolute;
+        transform: translate(280px, 25px);
+    }
+    .people .container .Cyprus2 .img3 {
+        width: 365px;
+        height: 439px;
+        background-size: contain;
+        position: absolute;
+        transform: translate(194px, -335px);
+    }
+
+    .people .container .Cyprus .TRIP {
+        width: 187px;
+        height: 50px;
+        border: 1px solid #222222;
+        background-color: white;
+        font-family: 'Lato';
+        font-weight: 700;
+        font-size: 20px;
+        letter-spacing: 3px;
+        padding-left: 10px;
+        margin-top: -7px;
+        margin-left: 17px;
+    }
+
+}

@@ -957,13 +957,14 @@ body {
         font-family: 'Lato';
         font-weight: 700;
         color: #FFFFFF;
-        font-size: 10px;
+        font-size: 9px;
         margin: 0;
-        letter-spacing: 6px;
+        letter-spacing: 8px;
         margin-bottom: 120px;
         align-self: center;
         margin-top: 10px;
-        margin-left: 28px;
+        margin-left: 13px;
+        text-align: center;
     }
     .instaagram .container .instaagram {
         font-family: 'Montserrat';
@@ -1005,7 +1006,6 @@ body {
         align-items: center;
         justify-content: center;
         position: relative;
-        display: none;
     }
     .instaagram .container .pkohogp {
         display: flex;
@@ -1212,9 +1212,13 @@ body {
     .conets .container.Cyprus.LOVE {
         display: none;
     }
-
-
-
+    
+    .Enough .container .romb1 .mini1{
+        display: none;
+    }
+    .Enough .container img{
+        display: none;
+    }
 }
     
 
